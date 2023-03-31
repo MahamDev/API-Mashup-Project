@@ -1,15 +1,30 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## API Mashup Project
 
-First, run the development server:
+This is a JavaScript-based application that uses the Famous Quotes API and the Yahoo Weather API to display a random quote and the current weather data of one city.
+
+## Features
+
+- Displays a random quote and weather data of one city on the homepage.
+- The city used in the weather data is currently set to London, but this can be easily changed by modifying the woeid parameter in the Yahoo Weather API endpoint URL in the code.
+
+## Installation
+
+To run this application locally, follow these steps:
+
+- Clone the repository to your local machine using git clone https://github.com/MahamDev/API-Mashup-Project.git.
+- Install dependencies by running `npm install.`
+- Create a .env.local file in the root directory of the project.
+- Add your RapidAPI key to the .env.local file as follows:
+```
+Mashup_APP_API_KEY=your_rapidapi_key_here
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
